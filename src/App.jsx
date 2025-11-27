@@ -1,6 +1,6 @@
 
 import Landing from './modules/Landing.jsx'
-import './App.css'
+import './index.css'
 
 function App() {
 
