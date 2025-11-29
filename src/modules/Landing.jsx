@@ -8,10 +8,10 @@ function Landing() {
     return (
         <>
         {/* Main div that contains 50 - 50 split of both portfolios */}
-            <main className="flex flex-col w-full h-screen">
+            <main className="flex flex-col w-full h-screen lg:flex-row">
                 <div onClick={() => navigate('/developer')}
                 className="w-full bg-slate-950 font-mono h-1/2 text-white flex justify-center items-center
-                    hover:h-3/4 transition-all duration-500 ease-in-out
+                    hover:h-3/4 transition-all duration-500 ease-in-out lg:h-screen lg:w-1/2 lg:hover:w-3/4 lg:hover:h-screen
                 ">
                         <h2 className="text-2xl">Web Developer</h2>
                     
@@ -19,7 +19,7 @@ function Landing() {
 
                 <div onClick={navigate('/writer')}
                 className="w-full bg-stone-100 text-black h-1/2 flex justify-center items-center
-                    hover:h-3/4 transition-all duration-500 ease-in-out
+                    hover:h-3/4 transition-all duration-500 ease-in-out lg:h-screen lg:w-1/2 lg:hover:w-3/4 lg:hover:h-screen
                 ">
                         <h2 className="text-2xl">Blog Writer</h2>
                     
